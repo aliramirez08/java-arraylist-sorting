@@ -1,6 +1,6 @@
 # SortingArrayList Project
 
-This Java project demonstrates the use of an `ArrayList` to store `Student` objects and perform manual sorting using a custom `SelectionSorter` class.  
+This project was developed to strengthen my understanding of data structures and sorting algorithms in Java. This Java project demonstrates the use of an `ArrayList` to store `Student` objects and perform manual sorting using a custom `SelectionSorter` class.  
 No Java Collections sort methods (`Collections.sort`, `Arrays.sort`, etc.) were used, as per assignment requirements.
 
 ## Features
