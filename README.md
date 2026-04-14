@@ -1,26 +1,34 @@
-# SortingArrayList Project
+# Sorting ArrayList Project (Java)
 
-This project was developed to strengthen my understanding of data structures and sorting algorithms in Java. This Java project demonstrates the use of an `ArrayList` to store `Student` objects and perform manual sorting using a custom `SelectionSorter` class.  
-No Java Collections sort methods (`Collections.sort`, `Arrays.sort`, etc.) were used, as per assignment requirements.
+## Description
+This project was developed to strengthen my understanding of data structures and sorting algorithms in Java. It demonstrates how to store and manage Student objects using an ArrayList and implement a custom selection sort algorithm without relying on built-in sorting methods.
 
 ## Features
-- Stores 10 Student objects, each with roll number, name, and address.
-- Sorts students alphabetically by name using a `Comparator`.
-- Sorts students numerically by roll number using a `Comparator`.
-- Implements custom selection sort algorithm without using built-in sort methods.
-- Validates input to the `Student` constructor: roll number must be positive.
-- Uses object-oriented programming principles with separation of concerns.
+- Stores 10 Student objects with roll number, name, and address
+- Sorts students alphabetically by name using a Comparator
+- Sorts students numerically by roll number using a Comparator
+- Implements a custom selection sort algorithm (no built-in sorting methods used)
+- Validates input (roll number must be positive)
+- Demonstrates object-oriented design and separation of concerns
 
-## Files
-- `Student.java` — defines the Student class with input validation.
-- `NameComparator.java` — comparator to sort by name.
-- `RollnoComparator.java` — comparator to sort by roll number.
-- `SelectionSorter.java` — custom selection sort implementation.
-- `Main.java` — entry point for creating, displaying, and sorting students.
+## Concepts Covered
+- ArrayLists
+- Custom sorting algorithms (Selection Sort)
+- Comparators
+- Object-Oriented Programming (OOP)
+- Input validation
 
-## How to Compile and Run
-1. Open the project directory in Terminal.
-2. Compile all Java files:
+## Project Structure
+- **Student.java** — defines the Student class with validation
+- **NameComparator.java** — comparator for sorting by name
+- **RollnoComparator.java** — comparator for sorting by roll number
+- **SelectionSorter.java** — custom selection sort implementation
+- **Main.java** — entry point for execution
+
+## How to Run
+1. Open the project directory in terminal
+2. Compile all files:
+
     ```bash
     javac *.java
     ```
