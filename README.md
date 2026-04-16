@@ -1,6 +1,6 @@
 # Sorting ArrayList Project (Java)
 
-This project was developed to strengthen my understanding of data structures and sorting algorithms in Java. It demonstrates how to manage Student objects using an ArrayList and implement a custom selection sort algorithm without relying on built-in sorting methods.
+This project was developed to strengthen my understanding of data structures and sorting algorithms in Java. It demonstrates how to manage Student objects using an ArrayList and implement a custom selection sort algorithm without relying on built-in sorting methods. Selection sort was implemented to demonstrate understanding of sorting logic without relying on built-in Java methods.
 
 ## Features
 - Stores 10 Student objects with roll number, name, and address
@@ -35,6 +35,17 @@ This project was developed to strengthen my understanding of data structures and
     ```bash
     java Main
     ```
+## Example
+
+```text
+Before Sorting:
+[John, Roll: 3]
+[Alice, Roll: 1]
+
+After Sorting by Name:
+[Alice, Roll: 1]
+[John, Roll: 3]
+```
 
 ## Source Code Screenshots
 
