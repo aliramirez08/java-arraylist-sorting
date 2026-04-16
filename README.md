@@ -1,4 +1,4 @@
-# Sorting ArrayList Project (Java)
+## Java ArrayList Sorting
 
 This project was developed to strengthen my understanding of data structures and sorting algorithms in Java. It demonstrates how to manage Student objects using an ArrayList and implement a custom selection sort algorithm without relying on built-in sorting methods. Selection sort was implemented to demonstrate understanding of sorting logic without relying on built-in Java methods.
 
@@ -10,31 +10,41 @@ This project was developed to strengthen my understanding of data structures and
 - Validates input (roll number must be positive)
 - Demonstrates object-oriented design and separation of concerns
 
-## Concepts Covered
+## Concepts Demonstrated
 - ArrayLists
 - Custom sorting algorithms (Selection Sort)
 - Comparators
 - Object-Oriented Programming (OOP)
 - Input validation
 
+## Technologies Used
+- Java
+- JDK 11+
+
 ## Project Structure
-- **Student.java** — defines the Student class with validation
-- **NameComparator.java** — comparator for sorting by name
-- **RollnoComparator.java** — comparator for sorting by roll number
-- **SelectionSorter.java** — custom selection sort implementation
-- **Main.java** — entry point for execution
+- `Student.java` – Student class definition
+- `NameComparator.java` – Sort by name
+- `RollnoComparator.java` – Sort by roll number
+- `SelectionSorter.java` – Custom sorting algorithm
+- `Main.java` – Program entry point
 
 ## How to Run
-1. Open the project directory in terminal
-2. Compile all files:
 
-    ```bash
-    javac *.java
-    ```
-3. Run the main program:
-    ```bash
-    java Main
-    ```
+### Prerequisites
+- Java Development Kit (JDK 11+)
+
+### Steps
+1. Clone or download the repository
+2. Navigate to the project directory
+3. Compile all Java files:
+```bash
+javac *.java
+```
+4. Run the main program:
+```bash
+java Main
+```
+
 ## Example
 
 ```text
@@ -47,7 +57,15 @@ After Sorting by Name:
 [John, Roll: 3]
 ```
 
-## Source Code Screenshots
+## What I Learned
+This project strengthened my understanding of how sorting algorithms work internally. Implementing selection sort manually helped me understand how data is compared and rearranged step by step.
+
+## Future Improvements
+- Add more sorting algorithms (Bubble Sort, Merge Sort)
+- Improve performance for larger datasets
+- Add user input for dynamic data
+  
+## Screenshots
 
 ### Student.java Source Code
 ![Student.java Source Code](Screenshots/Student.png)
@@ -63,8 +81,6 @@ After Sorting by Name:
 
 ### Main.java Source Code
 ![Main.java Source Code](Screenshots/Main.png)
-
-## Program Output Screenshot
 
 ### Source Code Output
 ![Program Output](Screenshots/MainOutput.png)
